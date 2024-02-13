@@ -35,6 +35,7 @@ const Form = () => {
             setValue("userName", "")
             setValue("userTel", "")
         }, 500);
+         sessionStorage.setItem('mensage', JSON.stringify(objeto))
     }
 
     const PhoneNumber = watch("userTel")
